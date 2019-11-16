@@ -1,6 +1,6 @@
-const electron = require('electron')
-const app = electron.app
-const BrowserWindow = electron.BrowserWindow
+const { app, BrowserWindow } = require('electron')
+
+require('electron-reload')(__dirname)
 
 let mainWindow
 
